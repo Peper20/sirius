@@ -1,0 +1,116 @@
+body {
+  overflow-x: hidden;
+}
+.text-transparents {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue-to-green {
+  background-image: linear-gradient(90deg, #4f759b, #14b668);
+}
+.blue-to-green-light {
+  background-image: linear-gradient(90deg, #adfcf9, #94fbab);
+}
+.wd-100pr {
+  width: 100%;
+}
+.text-width-300 {
+  font-weight: 400;
+}
+.h-100vh {
+  min-height: 100vh;
+}
+.hg-100p {
+  min-height: 100%;
+}
+.hg30 {
+  height: 50px;
+}
+.text-balance {
+  text-wrap: balance;
+}
+.border-ios {
+  max-width: 450px;
+  border-radius: 40px;
+}
+.border-radius-20 {
+  border-radius: 25px;
+}
+.bg-yellow {
+  background-color: #f2e94e;
+  border: none;
+  color: black;
+}
+.bg-green {
+  background-color: #23ce6b;
+  border: none;
+  color: #212529;
+}
+.hover-aquamarine {
+  transition: 0.3s;
+  color: #212529;
+}
+.hover-aquamarine:hover {
+  background-color: #42e2b8;
+}
+.bg-first {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+
+  background-image: url("img/Frame1.jpg");
+}
+.bg-name {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.bg-1 {
+  background-image: url("img/bage/1.svg");
+}
+.bg-2 {
+  background-image: url("img/bage/2.svg");
+}
+.bg-3 {
+  background-image: url("img/bage/3.svg");
+}
+.bg-4 {
+  background-image: url("img/bage/4.svg");
+}
+.bg-nav {
+  z-index: 9999;
+  background: transparent !important;
+  backdrop-filter: blur(5px);
+  background-color: rgba(30, 30, 30, 0.748) !important;
+}
+.wd-100 {
+  width: 100vw;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #1e1e1e;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #f2e94e, #23ce6b);
+}
+
+@font-face {
+  font-family: "Floripa";
+  src: url("../Floripa.woff2") format("woff2"),
+    url("../Floripa.woff") format("woff");
+}
+.font-floripa {
+  font-family: "Floripa";
+}
